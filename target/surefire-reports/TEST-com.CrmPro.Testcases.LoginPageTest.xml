@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.CrmPro.Testcases.LoginPageTest" time="0.049" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.CrmPro.Testcases.LoginPageTest" time="16.811" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -28,7 +28,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1117812991870633830.tmp"/>
+    <property name="classworlds.conf" value="E:\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14985576127781586972.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Girish/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin/server;C:/Users/Girish/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257/jre/bin;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Users\Girish\Downloads\apache-maven-3.8.4;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Girish\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Java\jdk1.8.0_25\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.17\bin;C:\Program Files\Java\jdk1.8.0_291\BIN;C:\Program Files\Java\jdk1.8.0_291;C:\Program Files\apache-maven-3.8.4\bin;;C:\Users\Girish\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,31 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.CrmPro.Testcases.LoginPageTest" name="verifyUserlogin" time="0.049">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-	at com.CrmPro.Pages.LoginPage.userLoginCredential(LoginPage.java:24)
-	at com.CrmPro.Testcases.LoginPageTest.verifyUserlogin(LoginPageTest.java:15)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@17d99928
-</system-out>
-    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 59772
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Dec 28, 2022 12:42:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Dec 28, 2022 12:42:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: a no-op implementation
-Dec 28, 2022 12:42:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 108.
-Dec 28, 2022 12:42:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-</system-err>
-  </testcase>
+  <testcase classname="com.CrmPro.Testcases.LoginPageTest" name="verifyUserlogin" time="16.811"/>
 </testsuite>
